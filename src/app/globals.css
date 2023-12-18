@@ -24,4 +24,21 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    padding: 30px;
+}
+
+
+.header{
+  
+  color:  rgb(144, 151, 151);
+}
+
+.header:hover {
+  background-color: rgb(180, 177, 177);
+  /* background-color: rgb(9, 152, 174); */
+  color: black;
+}
+
+.text{
+  color:  rgb(144, 151, 151);
 }
