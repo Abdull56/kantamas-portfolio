@@ -25,8 +25,8 @@ const AboutMe = () => {
             className=" rounded-full p-8"
             src="./image/kantama.jpg"
             style={{
-              height: "360px",
-              width: "360px",
+              height: "300px",
+              width: "300px",
             }}
             alt=""
           />
