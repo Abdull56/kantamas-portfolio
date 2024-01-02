@@ -1,12 +1,9 @@
 import React from "react";
 import { Icon } from "@/components/icon";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Main = () => {
-  const IconClick = (url: any) => {
-    window.open(url, "_blank");
-  };
-
   return (
     <div className="grid grid-cols-1 justify-center">
       <section className=" mt-10  mb-4 pt-10 pb-2  flex-1">
@@ -23,48 +20,53 @@ const Main = () => {
         </div>
 
         <div className=" justify-center flex mt-8 pb-10 mb-10 pt-10">
-          <motion.div
-            initial={{ x: -1000 }}
-            animate={{ x: 0 }}
-            transition={{ type: "spring" }}
-            whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
-            className=" rounded-full p-4  bg-gray-500 mr-4  "
-            onClick={() => IconClick("")}
-          >
-            <Icon icon="gitHubIcon" size={20} />
-          </motion.div>
+          <Link href="https://github.com" target="_blank">
+            <motion.div
+              initial={{ x: -1000 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring" }}
+              whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
+              className=" rounded-full p-4  bg-gray-500 mr-4"
+            >
+              <Icon icon="gitHubIcon" size={20} />
+            </motion.div>
+          </Link>
 
-          <motion.div
-            initial={{ x: -1000 }}
-            animate={{ x: 0 }}
-            transition={{ type: "spring" }}
-            whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
-            className=" rounded-full p-4  bg-gray-500 mr-4  "
-            onClick={() => IconClick("")}
-          >
-            <Icon icon="mailIcon" size={20} />
-          </motion.div>
+          <Link href="https://www.google.com/gmail/about" target="_blank">
+            <motion.div
+              initial={{ x: -1000 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring" }}
+              whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
+              className=" rounded-full p-4  bg-gray-500 mr-4  "
+            >
+              <Icon icon="mailIcon" size={20} />
+            </motion.div>
+          </Link>
 
-          <motion.div
-            initial={{ x: -1000 }}
-            animate={{ x: 0 }}
-            transition={{ type: "spring" }}
-            whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
-            className=" rounded-full p-4  bg-gray-500 mr-4  "
-            onClick={() => IconClick("")}
-          >
-            <Icon icon="linkedInIcon" size={20} />
-          </motion.div>
-          <motion.div
-            initial={{ x: -1000 }}
-            animate={{ x: 0 }}
-            transition={{ type: "spring" }}
-            whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
-            className=" rounded-full p-4  bg-gray-500 mr-4  "
-            onClick={() => IconClick("")}
-          >
-            <Icon icon="twitterIcon" size={20} />
-          </motion.div>
+          <Link href="https://www.linkedin.com/login" target="-blank">
+            <motion.div
+              initial={{ x: -1000 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring" }}
+              whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
+              className=" rounded-full p-4  bg-gray-500 mr-4  "
+            >
+              <Icon icon="linkedInIcon" size={20} />
+            </motion.div>
+          </Link>
+
+          <Link href="https://twitter.com/" target="_blank">
+            <motion.div
+              initial={{ x: -1000 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring" }}
+              whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
+              className=" rounded-full p-4  bg-gray-500 mr-4  "
+            >
+              <Icon icon="twitterIcon" size={20} />
+            </motion.div>
+          </Link>
         </div>
       </section>
 
