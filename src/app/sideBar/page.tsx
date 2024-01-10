@@ -23,26 +23,26 @@ const SideBar = () => {
       <div>
         <nav className="nav">
           <Link href="https://github.com" target="_blank">
-            <div className="p-3 py-5">
-              <Icon icon="gitHubIcon" size={30} />
+            <div className="p-3 py-4">
+              <Icon icon="gitHubIcon" size={20} />
             </div>
           </Link>
 
           <Link href="https://www.google.com/gmail/about" target="_blank">
-            <div className="p-3 py-5">
-              <Icon icon="mailIcon" size={30} />
+            <div className="p-3 py-4">
+              <Icon icon="mailIcon" size={20} />
             </div>
           </Link>
 
           <Link href="https://www.linkedin.com/login" target="-blank">
-            <div className="p-3 py-5">
-              <Icon icon="linkedInIcon" size={30} />
+            <div className="p-3 py-4">
+              <Icon icon="linkedInIcon" size={20} />
             </div>
           </Link>
 
           <Link href="https://twitter.com/" target="_blank">
-            <div className="p-3 py-5">
-              <Icon icon="twitterIcon" size={30} />
+            <div className="p-3 py-4">
+              <Icon icon="twitterIcon" size={20} />
             </div>
           </Link>
         </nav>

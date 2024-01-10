@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       <SideBar />
-      <Header />
+      {/* <Header /> */}
       <Main />
       <AboutMe />
       <Skills />
