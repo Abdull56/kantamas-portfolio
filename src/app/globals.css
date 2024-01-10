@@ -42,3 +42,22 @@ body {
 .text{
   color:  rgb(144, 151, 151);
 }
+
+.nav-bar{
+  width: 70px;
+  height: 70%;
+  position: absolute;
+  padding: 14px 0 8px 0;
+  z-index: 3;
+}
+
+.nav{
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 5px 5px;
+  position: absolute;
+}
+
+.image-container{
+  padding: 15px 0 0 0;
+}
