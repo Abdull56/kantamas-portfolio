@@ -11,8 +11,8 @@ import SideBar from "../sideBar/page";
 const Home = () => {
   return (
     <div>
-      <SideBar />
-      {/* <Header /> */}
+      {/* <SideBar /> */}
+      <Header />
       <Main />
       <AboutMe />
       <Skills />
