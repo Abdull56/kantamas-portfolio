@@ -65,16 +65,6 @@ const Skills = () => {
         </div>
 
         <div className="flex justify-center align-middle text-center">
-          {/* <motion.div
-            // transition={{ delay: 0.1 }}
-            whileHover={{ scale: 1.3 }}
-            // onClick={() => setRotate(!rotate)}
-            className="mr-8 rounded-xl p-5 "
-          >
-            <Icon icon={"bootstrapIcon"} size={90} />
-            <p className="mt-4">Bootstrap</p>
-          </motion.div> */}
-
           <motion.div
             // animate={{ rotate: rotate ? 360 : 0 }}
             whileHover={{ scale: 1.3 }}
