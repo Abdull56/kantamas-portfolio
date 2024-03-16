@@ -7,17 +7,20 @@ import Header from "../header/page";
 import Contact from "../contact/page";
 import Skills from "../skills/page";
 import SideBar from "../sideBar/page";
+import { BrowserRouter } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>
-      {/* <SideBar /> */}
-      <Header />
-      <Main />
-      <AboutMe />
-      <Skills />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <div>
+        {/* <SideBar /> */}
+        <Header />
+        <Main />
+        <AboutMe />
+        <Skills />
+        <Contact />
+      </div>
+    </BrowserRouter>
   );
 };
 

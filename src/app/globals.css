@@ -35,8 +35,13 @@ body {
 
 .header:hover {
   background-color: rgb(180, 177, 177);
-  /* background-color: rgb(9, 152, 174); */
-  color: black;
+  /*background-color: rgb(9, 152, 174);
+  */color: black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .text{
@@ -55,4 +60,21 @@ body {
 
 .image-container{
   padding: 15px 0 0 0;
+}
+
+.resume{
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color:  rgb(144, 151, 151);
+  background-color: rgb(180, 177, 177);
+  color: black;
+  margin-left: 20px;
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }

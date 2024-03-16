@@ -9,7 +9,7 @@ const AboutMe = () => {
   };
 
   return (
-    <div className="bg-neutral-950 justify-center text-white">
+    <div className="bg-neutral-950 justify-center text-white" id="aboutme">
       <div className=" text-center  pt-10">
         <span className="text-gray-400 text-xs">My Bio</span>
         <div>
@@ -32,7 +32,7 @@ const AboutMe = () => {
           />
         </div>
 
-        <div className="mt-4 ml-4 text-white text-sm">
+        <div className="mt-4 ml-4 text-white font-serif text-sm">
           <p>
             In 2020, I embarked on my exciting programming journey, and by 2023,
             I reached a significant milestone by securing my first internship.

@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div className="grid grid-cols-1 justify-center">
       <section className=" mt-10  mb-4 pt-10 pb-2  flex-1">
-        <div className=" text text-center ">
+        <div className=" text text-center font-serif ">
           <h1 className=" text-3xl pb-3">
             Hi, I am <span className=" text-sky-500">Abdullahi Kantama</span>
           </h1>
@@ -32,7 +32,7 @@ const Main = () => {
             </motion.div>
           </Link>
 
-          <Link href="https://www.google.com/gmail/about" target="_blank">
+          {/* <Link href="https://www.google.com/gmail/about" target="_blank">
             <motion.div
               initial={{ x: -1000 }}
               animate={{ x: 0 }}
@@ -42,7 +42,7 @@ const Main = () => {
             >
               <Icon icon="mailIcon" size={20} />
             </motion.div>
-          </Link>
+          </Link> */}
 
           <Link href="https://www.linkedin.com/login" target="-blank">
             <motion.div
@@ -87,7 +87,7 @@ const Main = () => {
           <div className=" border-b-2 border-neutral-900 max-w-xs pb-3 mb-3">
             <span className=" font-bold">Web Developement</span>
           </div>
-          <span className=" text-sm">
+          <span className=" text-sm font-serif">
             I use my knowledge of various programming languages such as
             HTML,CSS,JAVASCRIPT,REACT,TAILWIND,BOOTSTRAP, to build digital
             solutions for users.

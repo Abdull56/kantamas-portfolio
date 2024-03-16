@@ -29,7 +29,7 @@ const Contact = () => {
   const { isSubmitting } = formik;
 
   return (
-    <div className="bg-neutral-950 mt-12 pb-10">
+    <div className="bg-neutral-950 mt-12 pb-10" id="contact">
       <section>
         <div className="p-6 text-center pt-14">
           <span className="text-white text-xs  mt-10">GET IN TOUCH</span>

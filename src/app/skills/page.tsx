@@ -6,7 +6,7 @@ const Skills = () => {
   // const [rotate, setRotate] = useState(false);
 
   return (
-    <div className="grid grid-cols-2 px-2 pt-10 pb-5">
+    <div className="grid grid-cols-2 px-2 pt-10 pb-5" id="skills">
       <section>
         <div className="p-6 mt-10">
           <span className=" text-gray-400 text-lg">My Skills</span>
@@ -17,7 +17,7 @@ const Skills = () => {
           </div>
 
           <div className="mt-2 mb-2">
-            <span className="text-white text-lg">
+            <span className=" text-white text-sm font-serif ">
               {" "}
               I believe that this path will not only allow me to explore a wider
               range of technologies and tools but also empower me to create
@@ -41,7 +41,7 @@ const Skills = () => {
             className="mr-8 rounded-xl p-5 "
           >
             <Icon icon={"javascriptIcon"} size={90} />
-            <p className="mt-4">Javascript</p>
+            <p className="mt-4 text-sm">Javascript</p>
           </motion.div>
 
           <motion.div
@@ -51,7 +51,7 @@ const Skills = () => {
             className="mr-8 rounded-xl p-5 "
           >
             <Icon icon={"reactIcon"} size={90} />
-            <p className="mt-4 ml-4">React</p>
+            <p className="mt-4 ml-4 text-sm">React</p>
           </motion.div>
 
           <motion.div
@@ -60,7 +60,7 @@ const Skills = () => {
             className="mr-8 rounded-xl p-5 "
           >
             <Icon icon={"typescrptIcon"} size={90} />
-            <p className="mt-4">Typescript</p>
+            <p className="mt-4 text-sm">Typescript</p>
           </motion.div>
         </div>
 
@@ -72,7 +72,7 @@ const Skills = () => {
             className="mr-8 rounded-xl p-5 "
           >
             <Icon icon={"tailwindIcon"} size={90} />
-            <p className="mt-4">Next Js</p>
+            <p className="mt-4 text-sm">Next Js</p>
           </motion.div>
         </div>
       </section>
