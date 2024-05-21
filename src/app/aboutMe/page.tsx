@@ -19,14 +19,14 @@ const AboutMe = () => {
         </div>
       </div>
 
-      <section className="grid grid-cols-2 p-14">
-        <div className="ml-5 about-image mb-10 rounded-full">
+      <section className="grid grid-cols-2 p-10">
+        <div className="aboutImage rounded-full">
           <img
             className=" rounded-full p-8"
             src="./image/kantama.jpg"
             style={{
-              height: "300px",
-              width: "300px",
+              height: "400px",
+              width: "400px",
             }}
             alt=""
           />
@@ -58,8 +58,8 @@ const AboutMe = () => {
 
           <motion.div
             transition={{ type: "spring" }}
-            whileHover={{ scale: 1.1 }}
-            className=" header flex border p-2 mt-6 mb-10 rounded-full justify-center"
+            whileHover={{ scale: 1.0, borderRadius: "rounded" }}
+            className=" header flex border p-2 mt-6 mb-10 justify-center"
           >
             <Button
               className=""

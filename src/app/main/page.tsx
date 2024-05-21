@@ -22,7 +22,6 @@ const Main = () => {
         <div className=" justify-center flex mt-8 pb-10 mb-10 pt-10">
           <Link href="https://github.com" target="_blank">
             <motion.div
-              initial={{ x: -1000 }}
               animate={{ x: 0 }}
               transition={{ type: "spring" }}
               whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
@@ -32,21 +31,8 @@ const Main = () => {
             </motion.div>
           </Link>
 
-          {/* <Link href="https://www.google.com/gmail/about" target="_blank">
-            <motion.div
-              initial={{ x: -1000 }}
-              animate={{ x: 0 }}
-              transition={{ type: "spring" }}
-              whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
-              className=" rounded-full p-4  bg-gray-500 mr-4  "
-            >
-              <Icon icon="mailIcon" size={20} />
-            </motion.div>
-          </Link> */}
-
           <Link href="https://www.linkedin.com/login" target="-blank">
             <motion.div
-              initial={{ x: -1000 }}
               animate={{ x: 0 }}
               transition={{ type: "spring" }}
               whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
@@ -58,7 +44,6 @@ const Main = () => {
 
           <Link href="https://twitter.com/" target="_blank">
             <motion.div
-              initial={{ x: -1000 }}
               animate={{ x: 0 }}
               transition={{ type: "spring" }}
               whileHover={{ scale: 1.5, backgroundColor: "#B6B1BF" }}
@@ -80,7 +65,7 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="bg-sky-700 justify-center align-middle ml-12 mr-12 rounded-xl  mt-4 mb-12 p-10 text-neutral-950">
+        <div className=" bg-slate-500 justify-center align-middle ml-12 mr-12 rounded-xl  mt-4 mb-12 p-10 text-neutral-950">
           <div className=" border-2 rounded-full p-2 w-min mb-4 border-neutral-950">
             <Icon icon={"closedTagIcon"} size={20} />
           </div>
@@ -89,7 +74,7 @@ const Main = () => {
           </div>
           <span className=" text-sm font-serif">
             I use my knowledge of various programming languages such as
-            HTML,CSS,JAVASCRIPT,REACT,TAILWIND,BOOTSTRAP, to build digital
+            HTML,CSS,JAVASCRIPT,REACT,REACTNATIVE,AND NODE to build digital
             solutions for users.
           </span>
         </div>

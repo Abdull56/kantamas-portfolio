@@ -50,32 +50,32 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className=" grid grid-cols-2 mt-6 p-6 bg-neutral-900 mx-16 mb-8">
+      <section className=" grid grid-cols-2 mt-10 p-6 bg-neutral-900 mx-16 mb-8">
         <div className=" text-white">
-          <div className="mb-3">
+          <div className="mb-3 mt-4">
             {" "}
             <span className=" text-2xl">Have an awesome project idea?</span>
           </div>
 
           <span className=" text-sky-500 text-xl">Let's Discuss.</span>
 
-          <div className="mt-5 text-sky-500 flex mb-6">
-            <div className="rounded-full p-4  bg-gray-500 mr-4 w-16">
-              <Icon icon="phoneIcon" size={30} />
+          <div className="mt-10 text-sky-500 flex mb-6">
+            <div className="rounded-full p-4  bg-gray-500 mr-4 w-14">
+              <Icon icon="phoneIcon" size={25} />
             </div>
             <span className="mt-4">08107545591</span>
           </div>
 
           <div className="  text-sky-500 mt-2 flex mb-6">
-            <div className="rounded-full p-4  bg-gray-500 mr-4 w-16">
-              <Icon icon="messageIcon" size={30} />
+            <div className="rounded-full p-4  bg-gray-500 mr-4 w-14">
+              <Icon icon="messageIcon" size={25} />
             </div>
             <span className="mt-4">abdullshubby@gmail.com</span>
           </div>
 
           <div className="mt-2 mb-3 flex">
-            <div className="rounded-full p-4  bg-gray-500 mr-4 w-16 ">
-              <Icon icon="locationIcon" size={30} />
+            <div className="rounded-full p-4  bg-gray-500 mr-4 w-14 ">
+              <Icon icon="locationIcon" size={25} />
             </div>
             <span className="mt-4"> Abuja,Nigeria</span>
           </div>
@@ -86,7 +86,7 @@ const Contact = () => {
             <div className="">
               <span>Full Name</span>
               <Input
-                className=" rounded-xl mt-1 mb-3 h-14 border-neutral-700 placeholder:text-neutral-700"
+                className=" rounded-xl mt-1 mb-3 h-14 bg-slate-400 border-neutral-700 placeholder:text-neutral-700"
                 placeholder="Enter Name"
                 {...formik.getFieldMeta("fullname")}
                 {...formik.getFieldProps("fullname")}
@@ -96,7 +96,7 @@ const Contact = () => {
             <div className="">
               <span>Email Address</span>
               <Input
-                className=" rounded-xl mt-1 mb-3 h-14 border-neutral-700 placeholder:text-neutral-700"
+                className=" rounded-xl mt-1 mb-3 h-14 bg-slate-400 border-neutral-700 placeholder:text-neutral-700"
                 placeholder="Enter Email"
                 {...formik.getFieldMeta("email")}
                 {...formik.getFieldProps("email")}
@@ -107,7 +107,7 @@ const Contact = () => {
               <span>Message</span>
               <Textarea
                 placeholder="Enter Message"
-                className=" mt-1 rounded-xl h-36 border-neutral-700 placeholder:text-neutral-700"
+                className=" mt-1 rounded-xl h-36 border-neutral-700  bg-slate-400 placeholder:text-neutral-700"
               />
 
               <div className=" bg-sky-500 flex p-2 mt-6  justify-center w-44 rounded-xl">
