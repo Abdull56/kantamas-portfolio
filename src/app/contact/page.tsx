@@ -12,7 +12,7 @@ const initialValue = {
 };
 
 const Contact = () => {
-  const formik = useFormik({
+  const formik = useFormik({ 
     initialValues: initialValue,
     validationSchema: contactSchema,
     onSubmit: async (values, { setSubmitting }) => {
