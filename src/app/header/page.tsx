@@ -1,7 +1,6 @@
 import { Icon } from "@/components/icon";
 import { Button } from "@/components/ui/button";
 import React from "react";
-import { motion } from "framer-motion";
 import { HashLink as Link } from "react-router-hash-link";
 
 export const Header: React.FC = () => {
