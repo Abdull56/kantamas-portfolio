@@ -5,18 +5,18 @@ import { Textarea } from "@/components/ui/textarea";
 import { useFormik } from "formik";
 import contactSchema from "../validation";
 import { Button } from "@/components/ui/button";
-  
+
 const initialValue = {
   fullname: "",
   email: "",
 };
 
 const Contact = () => {
-  const formik = useFormik({ 
+  const formik = useFormik({
     initialValues: initialValue,
     validationSchema: contactSchema,
     onSubmit: async (values, { setSubmitting }) => {
-      setSubmitting(true), console.log("values", values);
+      (setSubmitting(true), console.log("values", values));
       try {
         console.log(values, "value");
       } catch (error) {
