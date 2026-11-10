@@ -6,15 +6,14 @@ import Main from "./main/page";
 import AboutMe from "./aboutMe/page";
 import Skills from "./skills/page";
 import Contact from "./contact/page";
-import Link from "next/link";
+import SideBar from "./sideBar/page";
 
 export default function Home() {
   return (
     <main>
       <BrowserRouter>
         <div>
-          <Link href={"/codes"}>Codes</Link>
-          {/* <SideBar /> */}
+          <SideBar />
           <Header />
           <Main />
           <AboutMe />
